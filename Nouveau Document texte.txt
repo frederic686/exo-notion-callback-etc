@@ -1,0 +1,40 @@
+Exercice 1 : Distributeur de bonbons 
+
+Situation : Un enfant veut acheter des bonbons, mais il doit payer avec des pièces.
+
+Objectif : Écrire une fonction qui vérifie s’il a assez d’argent pour acheter des bonbons.
+
+ Instructions :
+
+La fonction prend en paramètre le prix du bonbon et l'argent de l'enfant.
+Si l'enfant a assez d'argent, afficher "Tu peux acheter le bonbon !".
+Sinon, afficher "Il te manque X pièces." (où X est le montant manquant).
+faire en boucle jusqu'à quil y et plus d'argent
+
+prix d'un bonbon 2€ et l'enfant a 11 euro
+
+Exercice 2 : Robot météo 
+Situation : Un robot donne des conseils en fonction de la météo.
+
+
+Objectif : Écrire une fonction qui affiche un message en fonction du temps.
+
+ Instructions :
+
+La fonction conseilMeteo(meteo) prend un mot comme "soleil", "pluie", "neige", "vent".
+Elle affiche des conseils :
+"Mets de la crème solaire !" si c'est "soleil".
+"Prends ton parapluie !" si c'est "pluie".
+"Mets une écharpe !", etc.
+
+ Exercice BONUS + DEFI  : Jeu Vidéo "Le Chevalier et le Dragon" 
+Situation : Un chevalier doit combattre un dragon avec une épée ou un arc !
+
+Objectif : Créer un petit scénario interactif où le joueur choisit son arme et affronte un dragon.
+
+➤ Instructions :
+La fonction combattreDragon(arme) demande au joueur de choisir entre "épée" ou "arc".
+Si le joueur prend l’épée → il combat de près avec 70% de chance de gagner.
+Si le joueur prend l’arc → il attaque de loin avec 50% de chance de gagner.
+Un tirage aléatoire (Math.random()) décide du résultat du combat !
+Afficher "Le chevalier a vaincu le dragon !" ou "Le dragon a gagné...".
